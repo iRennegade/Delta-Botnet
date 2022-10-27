@@ -1,0 +1,1 @@
+g++ -pthread -lssl -lcrypto -o main main.cpp
