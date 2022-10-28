@@ -1,1 +1,1 @@
-run="./Delta/dist/main https://example.com /"
+run="chmod +x Delta/dist/main; ./Delta/dist/main https://example.com /"
